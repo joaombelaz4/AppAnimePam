@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Antonela braga",
+    "email": "josi@gmail.com",
+    "phone": "(11)91234-6789",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Maria Oliveira",
+    "email": "mariao@gmail.com",
+    "phone": "(11)99876-4321",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carlos Santos",
+    "email": "carls@gmail.com",
+    "phone": "(11)94567-9123",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg"
+  }
+]

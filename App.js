@@ -1,18 +1,24 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
-import Anime from './components/anime';
-import Filme from './components/filme';
-import Serie from './components/serie';
-
-
+import { StyleSheet, View, ScrollView } from 'react-native';
+import CardContato from './components/CardContato';
+import contatos from './data/contatos.json';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Anime/>
-      dasdadasdsadasdadas
-      <Filme/>
-      <Serie/>
+      <ScrollView contentContainerStyle={styles.scrollContent}>
+        {contatos.map((contato) => (
+          <CardContato
+            key={contato.id}
+            id={contato.id}
+            name={contato.name}
+            email={contato.email}
+            phone={contato.phone}
+            image={contato.image}
+          />
+        ))}
+      </ScrollView>
       <StatusBar style="auto" />
     </View>
   );
@@ -20,5 +26,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  scrollContent: {
+    alignItems: 'center',
+    paddingVertical: 20,
   },
 });
