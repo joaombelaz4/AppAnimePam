@@ -1,0 +1,2 @@
+seguinte, aparentemente o expo ou o sdk atualizou e as dependencias do app não estão mais atualizadas
+e mesmo eu atualizando tudo eu ainda não consegui abrir o app pelo expo go, so no navegador. 
