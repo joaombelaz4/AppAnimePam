@@ -13,8 +13,8 @@ export default function App() {
             key={contato.id}
             id={contato.id}
             name={contato.name}
-            email={contato.email}
-            phone={contato.phone}
+            idade={contato.idade}
+            stand={contato.stand}
             image={contato.image}
           />
         ))}

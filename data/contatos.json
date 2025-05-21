@@ -1,23 +1,30 @@
 [
   {
     "id": 1,
-    "name": "Antonela braga",
-    "email": "josi@gmail.com",
-    "phone": "(11)91234-6789",
-    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    "name": "Johnny Joestar",
+    "idade": "19",
+    "stand": "Tusk Act 1-4",
+    "image": "https://i.pinimg.com/736x/03/b1/74/03b1741898a290614e04d8210202b4ef.jpg"
   },
   {
     "id": 2,
-    "name": "Maria Oliveira",
-    "email": "mariao@gmail.com",
-    "phone": "(11)99876-4321",
-    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    "name": "Gyro Zeppeli",
+    "idade": "24",
+    "stand": "Ball Breaker",
+    "image": "https://images3.alphacoders.com/774/thumb-1920-774574.jpg"
   },
   {
     "id": 3,
-    "name": "Carlos Santos",
-    "email": "carls@gmail.com",
-    "phone": "(11)94567-9123",
-    "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    "name": "Funny Valentine",
+    "idade": "43",
+    "stand": "Dirty Deeds Done Dirt Cheap",
+    "image": "https://i.pinimg.com/474x/49/2c/fb/492cfbaeb5bbd9c663fd6df6f41f3239.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Diego Brando",
+    "idade": "20",
+    "stand": "Scary Monsters e The World",
+    "image": "https://i.pinimg.com/474x/a2/d7/d8/a2d7d86baab7e6ac0713cfb7d9783894.jpg"
   }
 ]

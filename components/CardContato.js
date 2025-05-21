@@ -4,8 +4,8 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 export default function CardContato({
   id = '0',
   name = 'Não informado',
-  email = null,
-  phone = 'Não informado',
+  idade = 'Desconhecida',
+  stand = 'Desconhecido',
   image = null,
 }) {
   return (
@@ -13,8 +13,8 @@ export default function CardContato({
       {image && <Image source={{ uri: image }} style={styles.image} />}
       <View style={styles.cardBody}>
         <Text style={styles.title}>{name}</Text>
-        {email && <Text style={styles.text}>📧 {email}</Text>}
-        <Text style={styles.text}>📱 {phone}</Text>
+        <Text style={styles.text}>Idade: {idade}</Text>
+        <Text style={styles.text}>Stand: {stand}</Text>
       </View>
     </View>
   );
@@ -23,33 +23,33 @@ export default function CardContato({
 const styles = StyleSheet.create({
   card: {
     width: '90%',
-    backgroundColor: '#ffffff',
-    borderRadius: 8,
+    backgroundColor: '#f5f5f5',
+    borderRadius: 12,
     marginVertical: 10,
     overflow: 'hidden',
     shadowColor: '#000',
-    shadowOpacity: 0.1,
-    shadowRadius: 6,
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
     shadowOffset: { width: 0, height: 4 },
-    elevation: 4,
+    elevation: 5,
     alignSelf: 'center',
   },
   image: {
     width: '100%',
-    height: 180,
+    height: 200,
     resizeMode: 'cover',
-    backgroundColor: '#ccc',
+    backgroundColor: '#ddd',
   },
   cardBody: {
-    padding: 12,
+    padding: 16,
   },
   title: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 'bold',
-    marginBottom: 6,
+    marginBottom: 8,
   },
   text: {
-    fontSize: 14,
+    fontSize: 16,
     color: '#333',
     marginBottom: 4,
   },
